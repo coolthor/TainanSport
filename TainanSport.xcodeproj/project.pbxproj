@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		333C64AF1956133500758BED /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 333C64AE1956133500758BED /* libsqlite3.dylib */; };
+		3354911819566DF4002D26E2 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3354911619566DF4002D26E2 /* SearchViewController.m */; };
+		3354911919566DF4002D26E2 /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3354911719566DF4002D26E2 /* SearchViewController.xib */; };
+		3354911C19566FF6002D26E2 /* search7.png in Resources */ = {isa = PBXBuildFile; fileRef = 3354911B19566FF6002D26E2 /* search7.png */; };
+		3359540C1953C98800F02754 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3359540B1953C98800F02754 /* MapViewController.m */; };
+		3359540E1953C9D100F02754 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3359540D1953C9D100F02754 /* MapKit.framework */; };
+		335954111953D71200F02754 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 335954101953D71200F02754 /* MainViewController.m */; };
+		339B475A1955C72C0088FF02 /* MedicalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 339B47581955C72C0088FF02 /* MedicalViewController.m */; };
+		339B475B1955C72C0088FF02 /* MedicalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 339B47591955C72C0088FF02 /* MedicalViewController.xib */; };
+		339FDA7C1955257200A2A8CC /* first2.png in Resources */ = {isa = PBXBuildFile; fileRef = 339FDA7A1955257200A2A8CC /* first2.png */; };
+		339FDA7D1955257200A2A8CC /* placeholder8.png in Resources */ = {isa = PBXBuildFile; fileRef = 339FDA7B1955257200A2A8CC /* placeholder8.png */; };
+		339FDA8119552FEB00A2A8CC /* NearByViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 339FDA7F19552FEB00A2A8CC /* NearByViewController.m */; };
+		339FDA8219552FEB00A2A8CC /* NearByViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 339FDA8019552FEB00A2A8CC /* NearByViewController.xib */; };
+		339FDA851955305A00A2A8CC /* viewControllerData.m in Sources */ = {isa = PBXBuildFile; fileRef = 339FDA841955305A00A2A8CC /* viewControllerData.m */; };
+		339FDA8B19553CA200A2A8CC /* WithDelegateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 339FDA8A19553CA200A2A8CC /* WithDelegateViewController.m */; };
+		339FDA921955600500A2A8CC /* MKAnnonation.m in Sources */ = {isa = PBXBuildFile; fileRef = 339FDA911955600500A2A8CC /* MKAnnonation.m */; };
+		33C609F219562BE8004DEFB6 /* sample.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 33C609F119562BE8004DEFB6 /* sample.sqlite */; };
+		33C609F5195631A1004DEFB6 /* Hospital.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C609F4195631A1004DEFB6 /* Hospital.m */; };
+		33C609F919563C34004DEFB6 /* 2014-06-22 06.17.21.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 33C609F819563C34004DEFB6 /* 2014-06-22 06.17.21.jpg */; };
+		33D9E5F3194C7EE600FB2B36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33D9E5F2194C7EE600FB2B36 /* Foundation.framework */; };
+		33D9E5F5194C7EE600FB2B36 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33D9E5F4194C7EE600FB2B36 /* CoreGraphics.framework */; };
+		33D9E5F7194C7EE600FB2B36 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33D9E5F6194C7EE600FB2B36 /* UIKit.framework */; };
+		33D9E5FD194C7EE600FB2B36 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 33D9E5FB194C7EE600FB2B36 /* InfoPlist.strings */; };
+		33D9E5FF194C7EE600FB2B36 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D9E5FE194C7EE600FB2B36 /* main.m */; };
+		33D9E603194C7EE600FB2B36 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D9E602194C7EE600FB2B36 /* AppDelegate.m */; };
+		33D9E606194C7EE600FB2B36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33D9E604194C7EE600FB2B36 /* Main.storyboard */; };
+		33D9E609194C7EE600FB2B36 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D9E608194C7EE600FB2B36 /* ViewController.m */; };
+		33D9E60B194C7EE600FB2B36 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33D9E60A194C7EE600FB2B36 /* Images.xcassets */; };
+		33D9E612194C7EE600FB2B36 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33D9E611194C7EE600FB2B36 /* XCTest.framework */; };
+		33D9E613194C7EE600FB2B36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33D9E5F2194C7EE600FB2B36 /* Foundation.framework */; };
+		33D9E614194C7EE600FB2B36 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33D9E5F6194C7EE600FB2B36 /* UIKit.framework */; };
+		33D9E61C194C7EE600FB2B36 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 33D9E61A194C7EE600FB2B36 /* InfoPlist.strings */; };
+		33D9E61E194C7EE600FB2B36 /* TainanSportTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D9E61D194C7EE600FB2B36 /* TainanSportTests.m */; };
+		33D9E629194C7F2200FB2B36 /* TLJSONParse.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D9E628194C7F2200FB2B36 /* TLJSONParse.m */; };
+		33D9E630194C8F9100FB2B36 /* Exercise.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D9E62F194C8F9100FB2B36 /* Exercise.m */; };
+		33D9E633194C93BD00FB2B36 /* TLParseRawData.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D9E632194C93BD00FB2B36 /* TLParseRawData.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33D9E615194C7EE600FB2B36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33D9E5E7194C7EE600FB2B36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33D9E5EE194C7EE600FB2B36;
+			remoteInfo = TainanSport;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		333C64AE1956133500758BED /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		3354911519566DF4002D26E2 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		3354911619566DF4002D26E2 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		3354911719566DF4002D26E2 /* SearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
+		3354911B19566FF6002D26E2 /* search7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search7.png; sourceTree = "<group>"; };
+		3359540A1953C98800F02754 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		3359540B1953C98800F02754 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		3359540D1953C9D100F02754 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		3359540F1953D71200F02754 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = ../MainViewController.h; sourceTree = "<group>"; };
+		335954101953D71200F02754 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = ../MainViewController.m; sourceTree = "<group>"; };
+		339B47571955C72C0088FF02 /* MedicalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedicalViewController.h; sourceTree = "<group>"; };
+		339B47581955C72C0088FF02 /* MedicalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedicalViewController.m; sourceTree = "<group>"; };
+		339B47591955C72C0088FF02 /* MedicalViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MedicalViewController.xib; sourceTree = "<group>"; };
+		339FDA7A1955257200A2A8CC /* first2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first2.png; sourceTree = "<group>"; };
+		339FDA7B1955257200A2A8CC /* placeholder8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder8.png; sourceTree = "<group>"; };
+		339FDA7E19552FEB00A2A8CC /* NearByViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NearByViewController.h; sourceTree = "<group>"; };
+		339FDA7F19552FEB00A2A8CC /* NearByViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NearByViewController.m; sourceTree = "<group>"; };
+		339FDA8019552FEB00A2A8CC /* NearByViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NearByViewController.xib; sourceTree = "<group>"; };
+		339FDA831955305A00A2A8CC /* viewControllerData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = viewControllerData.h; sourceTree = "<group>"; };
+		339FDA841955305A00A2A8CC /* viewControllerData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = viewControllerData.m; sourceTree = "<group>"; };
+		339FDA8919553CA200A2A8CC /* WithDelegateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WithDelegateViewController.h; sourceTree = "<group>"; };
+		339FDA8A19553CA200A2A8CC /* WithDelegateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WithDelegateViewController.m; sourceTree = "<group>"; };
+		339FDA901955600500A2A8CC /* MKAnnonation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKAnnonation.h; sourceTree = "<group>"; };
+		339FDA911955600500A2A8CC /* MKAnnonation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKAnnonation.m; sourceTree = "<group>"; };
+		33C609F119562BE8004DEFB6 /* sample.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = sample.sqlite; sourceTree = "<group>"; };
+		33C609F3195631A1004DEFB6 /* Hospital.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hospital.h; sourceTree = "<group>"; };
+		33C609F4195631A1004DEFB6 /* Hospital.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hospital.m; sourceTree = "<group>"; };
+		33C609F819563C34004DEFB6 /* 2014-06-22 06.17.21.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2014-06-22 06.17.21.jpg"; sourceTree = "<group>"; };
+		33D9E5EF194C7EE600FB2B36 /* TainanSport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TainanSport.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33D9E5F2194C7EE600FB2B36 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		33D9E5F4194C7EE600FB2B36 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		33D9E5F6194C7EE600FB2B36 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		33D9E5FA194C7EE600FB2B36 /* TainanSport-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TainanSport-Info.plist"; sourceTree = "<group>"; };
+		33D9E5FC194C7EE600FB2B36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		33D9E5FE194C7EE600FB2B36 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		33D9E600194C7EE600FB2B36 /* TainanSport-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TainanSport-Prefix.pch"; sourceTree = "<group>"; };
+		33D9E601194C7EE600FB2B36 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		33D9E602194C7EE600FB2B36 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		33D9E605194C7EE600FB2B36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		33D9E607194C7EE600FB2B36 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		33D9E608194C7EE600FB2B36 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		33D9E60A194C7EE600FB2B36 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		33D9E610194C7EE600FB2B36 /* TainanSportTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TainanSportTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33D9E611194C7EE600FB2B36 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		33D9E619194C7EE600FB2B36 /* TainanSportTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TainanSportTests-Info.plist"; sourceTree = "<group>"; };
+		33D9E61B194C7EE600FB2B36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		33D9E61D194C7EE600FB2B36 /* TainanSportTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TainanSportTests.m; sourceTree = "<group>"; };
+		33D9E627194C7F2200FB2B36 /* TLJSONParse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLJSONParse.h; sourceTree = "<group>"; };
+		33D9E628194C7F2200FB2B36 /* TLJSONParse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLJSONParse.m; sourceTree = "<group>"; };
+		33D9E62E194C8F9100FB2B36 /* Exercise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exercise.h; sourceTree = "<group>"; };
+		33D9E62F194C8F9100FB2B36 /* Exercise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Exercise.m; sourceTree = "<group>"; };
+		33D9E631194C93BD00FB2B36 /* TLParseRawData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLParseRawData.h; sourceTree = "<group>"; };
+		33D9E632194C93BD00FB2B36 /* TLParseRawData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLParseRawData.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33D9E5EC194C7EE600FB2B36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				333C64AF1956133500758BED /* libsqlite3.dylib in Frameworks */,
+				3359540E1953C9D100F02754 /* MapKit.framework in Frameworks */,
+				33D9E5F5194C7EE600FB2B36 /* CoreGraphics.framework in Frameworks */,
+				33D9E5F7194C7EE600FB2B36 /* UIKit.framework in Frameworks */,
+				33D9E5F3194C7EE600FB2B36 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33D9E60D194C7EE600FB2B36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33D9E612194C7EE600FB2B36 /* XCTest.framework in Frameworks */,
+				33D9E614194C7EE600FB2B36 /* UIKit.framework in Frameworks */,
+				33D9E613194C7EE600FB2B36 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3354911A19566DFA002D26E2 /* SearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				3354911519566DF4002D26E2 /* SearchViewController.h */,
+				3354911619566DF4002D26E2 /* SearchViewController.m */,
+				3354911719566DF4002D26E2 /* SearchViewController.xib */,
+			);
+			name = SearchBar;
+			sourceTree = "<group>";
+		};
+		339B47561955C7020088FF02 /* Medical */ = {
+			isa = PBXGroup;
+			children = (
+				339B47571955C72C0088FF02 /* MedicalViewController.h */,
+				339B47581955C72C0088FF02 /* MedicalViewController.m */,
+				339B47591955C72C0088FF02 /* MedicalViewController.xib */,
+			);
+			name = Medical;
+			sourceTree = "<group>";
+		};
+		339FDA73195515A400A2A8CC /* image */ = {
+			isa = PBXGroup;
+			children = (
+				3354911B19566FF6002D26E2 /* search7.png */,
+				33C609F819563C34004DEFB6 /* 2014-06-22 06.17.21.jpg */,
+				339FDA7A1955257200A2A8CC /* first2.png */,
+				339FDA7B1955257200A2A8CC /* placeholder8.png */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+		339FDA8C195544EB00A2A8CC /* NearByMe */ = {
+			isa = PBXGroup;
+			children = (
+				339FDA7E19552FEB00A2A8CC /* NearByViewController.h */,
+				339FDA7F19552FEB00A2A8CC /* NearByViewController.m */,
+				339FDA8019552FEB00A2A8CC /* NearByViewController.xib */,
+				339FDA901955600500A2A8CC /* MKAnnonation.h */,
+				339FDA911955600500A2A8CC /* MKAnnonation.m */,
+			);
+			name = NearByMe;
+			sourceTree = "<group>";
+		};
+		33D9E5E6194C7EE600FB2B36 = {
+			isa = PBXGroup;
+			children = (
+				33D9E5F8194C7EE600FB2B36 /* TainanSport */,
+				33D9E617194C7EE600FB2B36 /* TainanSportTests */,
+				33D9E5F1194C7EE600FB2B36 /* Frameworks */,
+				33D9E5F0194C7EE600FB2B36 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33D9E5F0194C7EE600FB2B36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33D9E5EF194C7EE600FB2B36 /* TainanSport.app */,
+				33D9E610194C7EE600FB2B36 /* TainanSportTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33D9E5F1194C7EE600FB2B36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				333C64AE1956133500758BED /* libsqlite3.dylib */,
+				3359540D1953C9D100F02754 /* MapKit.framework */,
+				33D9E5F2194C7EE600FB2B36 /* Foundation.framework */,
+				33D9E5F4194C7EE600FB2B36 /* CoreGraphics.framework */,
+				33D9E5F6194C7EE600FB2B36 /* UIKit.framework */,
+				33D9E611194C7EE600FB2B36 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		33D9E5F8194C7EE600FB2B36 /* TainanSport */ = {
+			isa = PBXGroup;
+			children = (
+				3354911A19566DFA002D26E2 /* SearchBar */,
+				339B47561955C7020088FF02 /* Medical */,
+				339FDA8C195544EB00A2A8CC /* NearByMe */,
+				339FDA73195515A400A2A8CC /* image */,
+				33D9E62A194C7F2E00FB2B36 /* Tool */,
+				33D9E601194C7EE600FB2B36 /* AppDelegate.h */,
+				33D9E602194C7EE600FB2B36 /* AppDelegate.m */,
+				33D9E604194C7EE600FB2B36 /* Main.storyboard */,
+				3359540F1953D71200F02754 /* MainViewController.h */,
+				335954101953D71200F02754 /* MainViewController.m */,
+				33D9E607194C7EE600FB2B36 /* ViewController.h */,
+				33D9E608194C7EE600FB2B36 /* ViewController.m */,
+				33D9E60A194C7EE600FB2B36 /* Images.xcassets */,
+				33D9E5F9194C7EE600FB2B36 /* Supporting Files */,
+				3359540A1953C98800F02754 /* MapViewController.h */,
+				3359540B1953C98800F02754 /* MapViewController.m */,
+			);
+			path = TainanSport;
+			sourceTree = "<group>";
+		};
+		33D9E5F9194C7EE600FB2B36 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				33C609F119562BE8004DEFB6 /* sample.sqlite */,
+				33D9E5FA194C7EE600FB2B36 /* TainanSport-Info.plist */,
+				33D9E5FB194C7EE600FB2B36 /* InfoPlist.strings */,
+				33D9E5FE194C7EE600FB2B36 /* main.m */,
+				33D9E600194C7EE600FB2B36 /* TainanSport-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		33D9E617194C7EE600FB2B36 /* TainanSportTests */ = {
+			isa = PBXGroup;
+			children = (
+				33D9E61D194C7EE600FB2B36 /* TainanSportTests.m */,
+				33D9E618194C7EE600FB2B36 /* Supporting Files */,
+			);
+			path = TainanSportTests;
+			sourceTree = "<group>";
+		};
+		33D9E618194C7EE600FB2B36 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				33D9E619194C7EE600FB2B36 /* TainanSportTests-Info.plist */,
+				33D9E61A194C7EE600FB2B36 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		33D9E62A194C7F2E00FB2B36 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				33D9E627194C7F2200FB2B36 /* TLJSONParse.h */,
+				33D9E628194C7F2200FB2B36 /* TLJSONParse.m */,
+				33D9E62E194C8F9100FB2B36 /* Exercise.h */,
+				33D9E62F194C8F9100FB2B36 /* Exercise.m */,
+				33D9E631194C93BD00FB2B36 /* TLParseRawData.h */,
+				33D9E632194C93BD00FB2B36 /* TLParseRawData.m */,
+				339FDA831955305A00A2A8CC /* viewControllerData.h */,
+				339FDA841955305A00A2A8CC /* viewControllerData.m */,
+				339FDA8919553CA200A2A8CC /* WithDelegateViewController.h */,
+				339FDA8A19553CA200A2A8CC /* WithDelegateViewController.m */,
+				33C609F3195631A1004DEFB6 /* Hospital.h */,
+				33C609F4195631A1004DEFB6 /* Hospital.m */,
+			);
+			name = Tool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33D9E5EE194C7EE600FB2B36 /* TainanSport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33D9E621194C7EE600FB2B36 /* Build configuration list for PBXNativeTarget "TainanSport" */;
+			buildPhases = (
+				33D9E5EB194C7EE600FB2B36 /* Sources */,
+				33D9E5EC194C7EE600FB2B36 /* Frameworks */,
+				33D9E5ED194C7EE600FB2B36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TainanSport;
+			productName = TainanSport;
+			productReference = 33D9E5EF194C7EE600FB2B36 /* TainanSport.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33D9E60F194C7EE600FB2B36 /* TainanSportTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33D9E624194C7EE600FB2B36 /* Build configuration list for PBXNativeTarget "TainanSportTests" */;
+			buildPhases = (
+				33D9E60C194C7EE600FB2B36 /* Sources */,
+				33D9E60D194C7EE600FB2B36 /* Frameworks */,
+				33D9E60E194C7EE600FB2B36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33D9E616194C7EE600FB2B36 /* PBXTargetDependency */,
+			);
+			name = TainanSportTests;
+			productName = TainanSportTests;
+			productReference = 33D9E610194C7EE600FB2B36 /* TainanSportTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33D9E5E7194C7EE600FB2B36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Thor Lin";
+				TargetAttributes = {
+					33D9E5EE194C7EE600FB2B36 = {
+						DevelopmentTeam = V743EFT54Y;
+					};
+					33D9E60F194C7EE600FB2B36 = {
+						TestTargetID = 33D9E5EE194C7EE600FB2B36;
+					};
+				};
+			};
+			buildConfigurationList = 33D9E5EA194C7EE600FB2B36 /* Build configuration list for PBXProject "TainanSport" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33D9E5E6194C7EE600FB2B36;
+			productRefGroup = 33D9E5F0194C7EE600FB2B36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33D9E5EE194C7EE600FB2B36 /* TainanSport */,
+				33D9E60F194C7EE600FB2B36 /* TainanSportTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33D9E5ED194C7EE600FB2B36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				339FDA7D1955257200A2A8CC /* placeholder8.png in Resources */,
+				339FDA8219552FEB00A2A8CC /* NearByViewController.xib in Resources */,
+				3354911C19566FF6002D26E2 /* search7.png in Resources */,
+				33D9E60B194C7EE600FB2B36 /* Images.xcassets in Resources */,
+				339B475B1955C72C0088FF02 /* MedicalViewController.xib in Resources */,
+				339FDA7C1955257200A2A8CC /* first2.png in Resources */,
+				33D9E5FD194C7EE600FB2B36 /* InfoPlist.strings in Resources */,
+				33C609F919563C34004DEFB6 /* 2014-06-22 06.17.21.jpg in Resources */,
+				33D9E606194C7EE600FB2B36 /* Main.storyboard in Resources */,
+				3354911919566DF4002D26E2 /* SearchViewController.xib in Resources */,
+				33C609F219562BE8004DEFB6 /* sample.sqlite in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33D9E60E194C7EE600FB2B36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33D9E61C194C7EE600FB2B36 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33D9E5EB194C7EE600FB2B36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				339FDA851955305A00A2A8CC /* viewControllerData.m in Sources */,
+				339B475A1955C72C0088FF02 /* MedicalViewController.m in Sources */,
+				33D9E633194C93BD00FB2B36 /* TLParseRawData.m in Sources */,
+				33D9E609194C7EE600FB2B36 /* ViewController.m in Sources */,
+				339FDA8B19553CA200A2A8CC /* WithDelegateViewController.m in Sources */,
+				339FDA8119552FEB00A2A8CC /* NearByViewController.m in Sources */,
+				3359540C1953C98800F02754 /* MapViewController.m in Sources */,
+				3354911819566DF4002D26E2 /* SearchViewController.m in Sources */,
+				339FDA921955600500A2A8CC /* MKAnnonation.m in Sources */,
+				335954111953D71200F02754 /* MainViewController.m in Sources */,
+				33C609F5195631A1004DEFB6 /* Hospital.m in Sources */,
+				33D9E630194C8F9100FB2B36 /* Exercise.m in Sources */,
+				33D9E629194C7F2200FB2B36 /* TLJSONParse.m in Sources */,
+				33D9E603194C7EE600FB2B36 /* AppDelegate.m in Sources */,
+				33D9E5FF194C7EE600FB2B36 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33D9E60C194C7EE600FB2B36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33D9E61E194C7EE600FB2B36 /* TainanSportTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33D9E616194C7EE600FB2B36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33D9E5EE194C7EE600FB2B36 /* TainanSport */;
+			targetProxy = 33D9E615194C7EE600FB2B36 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		33D9E5FB194C7EE600FB2B36 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33D9E5FC194C7EE600FB2B36 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		33D9E604194C7EE600FB2B36 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33D9E605194C7EE600FB2B36 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		33D9E61A194C7EE600FB2B36 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33D9E61B194C7EE600FB2B36 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33D9E61F194C7EE600FB2B36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		33D9E620194C7EE600FB2B36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33D9E622194C7EE600FB2B36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TainanSport/TainanSport-Prefix.pch";
+				INFOPLIST_FILE = "TainanSport/TainanSport-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		33D9E623194C7EE600FB2B36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TainanSport/TainanSport-Prefix.pch";
+				INFOPLIST_FILE = "TainanSport/TainanSport-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		33D9E625194C7EE600FB2B36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TainanSport.app/TainanSport";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TainanSport/TainanSport-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TainanSportTests/TainanSportTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		33D9E626194C7EE600FB2B36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TainanSport.app/TainanSport";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TainanSport/TainanSport-Prefix.pch";
+				INFOPLIST_FILE = "TainanSportTests/TainanSportTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33D9E5EA194C7EE600FB2B36 /* Build configuration list for PBXProject "TainanSport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33D9E61F194C7EE600FB2B36 /* Debug */,
+				33D9E620194C7EE600FB2B36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33D9E621194C7EE600FB2B36 /* Build configuration list for PBXNativeTarget "TainanSport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33D9E622194C7EE600FB2B36 /* Debug */,
+				33D9E623194C7EE600FB2B36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33D9E624194C7EE600FB2B36 /* Build configuration list for PBXNativeTarget "TainanSportTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33D9E625194C7EE600FB2B36 /* Debug */,
+				33D9E626194C7EE600FB2B36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33D9E5E7194C7EE600FB2B36 /* Project object */;
+}
