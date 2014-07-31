@@ -41,8 +41,6 @@
     
 }
 
-
-
 - (void)mapViewDidFinishLoadingMap:(MKMapView *)mapView{
     if(_IsFirstinitLocate){
         MKCoordinateRegion currentRegion;

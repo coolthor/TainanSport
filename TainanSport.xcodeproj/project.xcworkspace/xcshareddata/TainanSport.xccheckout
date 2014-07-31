@@ -5,36 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>454C7FB7-A36D-47F7-812D-9CEFAE60FB8D</string>
+	<string>39113B46-DE75-4F7D-AE06-36A92ECBAE85</string>
 	<key>IDESourceControlProjectName</key>
 	<string>TainanSport</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>BF4DAED9-E42A-4407-8D2D-552D01584ABE</key>
-		<string>https://github.com/coolthor/PracticeProject.git</string>
+		<key>49329EED-704C-4BF2-86ED-3555D7AFFDAE</key>
+		<string>https://github.com/coolthor/TainanSport.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>MyPlayground/TainanSport/TainanSport.xcodeproj/project.xcworkspace</string>
+	<string>TainanSport.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>BF4DAED9-E42A-4407-8D2D-552D01584ABE</key>
-		<string>../../../..</string>
+		<key>49329EED-704C-4BF2-86ED-3555D7AFFDAE</key>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/coolthor/PracticeProject.git</string>
+	<string>https://github.com/coolthor/TainanSport.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>BF4DAED9-E42A-4407-8D2D-552D01584ABE</string>
+	<string>49329EED-704C-4BF2-86ED-3555D7AFFDAE</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>BF4DAED9-E42A-4407-8D2D-552D01584ABE</string>
+			<string>49329EED-704C-4BF2-86ED-3555D7AFFDAE</string>
 			<key>IDESourceControlWCCName</key>
-			<string>PracticeProject</string>
+			<string>TainanSportMap</string>
 		</dict>
 	</array>
 </dict>
